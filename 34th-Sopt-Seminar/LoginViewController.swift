@@ -58,6 +58,15 @@ final class LoginViewController: UIViewController {
         return button
     }()
     
+    private lazy var backgroundSwitch: UISwitch = {
+        let backgroundSwitch = UISwitch()
+        backgroundSwitch.frame = CGRect(x: 20, y: 750, width: 0, height: 0)
+        backgroundSwitch.isOn = false
+        backgroundSwitch.onTintColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
+        backgroundSwitch.addTarget(self, action: #selector(backgroundChanged), for: .valueChanged)
+        return backgroundSwitch
+    }()
+    
     override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -66,7 +75,7 @@ final class LoginViewController: UIViewController {
     }
         
     private func setLayout() {
-        [titleLabel, idTextField, passwordTextField, loginButton].forEach {
+        [titleLabel, idTextField, passwordTextField, loginButton, backgroundSwitch].forEach {
             self.view.addSubview($0)
         }
     }
@@ -82,6 +91,17 @@ final class LoginViewController: UIViewController {
         let welcomeViewController = WelcomeViewController()
         welcomeViewController.id = idTextField.text
         self.navigationController?.pushViewController(welcomeViewController, animated: true)
+    }
+    
+    @objc
+    private func backgroundChanged(_ sender: UISwitch) {
+        if sender.isOn {
+            self.view.backgroundColor = UIColor(red: 33/255, green: 33/255, blue: 35/255, alpha: 1)
+            titleLabel.textColor = .white
+        } else {
+            self.view.backgroundColor = .white
+            titleLabel.textColor = .black
+        }
     }
     
     @objc
