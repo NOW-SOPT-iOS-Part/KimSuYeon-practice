@@ -36,6 +36,8 @@
 		A3CDA1F62BD91AB100851A0F /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3CDA1ED2BD91AB100851A0F /* Pretendard-Medium.otf */; };
 		A3CDA1F72BD91AB100851A0F /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3CDA1EE2BD91AB100851A0F /* Pretendard-Light.otf */; };
 		A3CDA1F82BD91AB100851A0F /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3CDA1EF2BD91AB100851A0F /* Pretendard-SemiBold.otf */; };
+		A3CDA1FC2BD943C800851A0F /* LoginView_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CDA1FB2BD943C800851A0F /* LoginView_DelegatePattern.swift */; };
+		A3CDA1FE2BD9476F00851A0F /* WelcomeView_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CDA1FD2BD9476F00851A0F /* WelcomeView_DelegatePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		A3CDA1ED2BD91AB100851A0F /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../things/font/Pretendard/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		A3CDA1EE2BD91AB100851A0F /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../things/font/Pretendard/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
 		A3CDA1EF2BD91AB100851A0F /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../things/font/Pretendard/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		A3CDA1FB2BD943C800851A0F /* LoginView_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView_DelegatePattern.swift; sourceTree = "<group>"; };
+		A3CDA1FD2BD9476F00851A0F /* WelcomeView_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView_DelegatePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +179,9 @@
 		A3CDA1FA2BD91ADC00851A0F /* 2nd-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				A3CDA1FB2BD943C800851A0F /* LoginView_DelegatePattern.swift */,
 				A3ACF6832BC1146100E7D463 /* LoginViewController_DelegatePattern.swift */,
+				A3CDA1FD2BD9476F00851A0F /* WelcomeView_DelegatePattern.swift */,
 				A3ACF6852BC1147500E7D463 /* WelcomeViewController_DelegatePattern.swift */,
 				A3ACF68C2BC131BC00E7D463 /* ScrollViewController.swift */,
 			);
@@ -275,11 +281,13 @@
 				A3CDA1C42BD3A6DB00851A0F /* ItemModel.swift in Sources */,
 				A380C1882BB7E8D6000F3739 /* WelcomeViewController.swift in Sources */,
 				A380C1A12BBBCEA5000F3739 /* UIFont+.swift in Sources */,
+				A3CDA1FC2BD943C800851A0F /* LoginView_DelegatePattern.swift in Sources */,
 				A3ACF68D2BC131BC00E7D463 /* ScrollViewController.swift in Sources */,
 				A380C1762BB7DC2A000F3739 /* ViewController.swift in Sources */,
 				A3CDA1BE2BD395CC00851A0F /* ChatViewConroller.swift in Sources */,
 				A380C1722BB7DC2A000F3739 /* AppDelegate.swift in Sources */,
 				A3ACF6842BC1146100E7D463 /* LoginViewController_DelegatePattern.swift in Sources */,
+				A3CDA1FE2BD9476F00851A0F /* WelcomeView_DelegatePattern.swift in Sources */,
 				A3CDA1BA2BD38F9F00851A0F /* ChatTableViewCell.swift in Sources */,
 				A380C1742BB7DC2A000F3739 /* SceneDelegate.swift in Sources */,
 				A3CDA1C22BD39F3800851A0F /* ChatModel.swift in Sources */,
