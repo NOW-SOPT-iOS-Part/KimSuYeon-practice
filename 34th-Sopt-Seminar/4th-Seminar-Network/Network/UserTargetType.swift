@@ -26,7 +26,7 @@ extension UserTargetType: TargetType {
         switch self {
         case .signUp:
             return "/member/join"
-        case .getUserInfo(memberId: let memberId):
+        case .getUserInfo(memberId: _):
             return "/member/info"
         }
     }

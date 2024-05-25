@@ -136,17 +136,8 @@
 				A3CDA1F92BD91AC900851A0F /* 1st-Seminar */,
 				A3CDA1FA2BD91ADC00851A0F /* 2nd-Seminar */,
 				A38CEC6D2BDCCF68005FB567 /* 3rd-Seminar */,
+				A3E998D52C01AF7B0045DF36 /* 4th-Seminar-Network */,
 				A380C17F2BB7DC2D000F3739 /* Info.plist */,
-				A38CEC562BDCCB85005FB567 /* Config.swift */,
-				A38CEC582BDCCDE7005FB567 /* NetworkResult.swift */,
-				A38CEC5A2BDCCE0C005FB567 /* MoyaLoggingPlugin.swift */,
-				A38CEC622BDCCED4005FB567 /* UserTargetType.swift */,
-				A38CEC642BDCCEF2005FB567 /* UserService.swift */,
-				A38CEC5C2BDCCE2E005FB567 /* SignUpRequestModel.swift */,
-				A38CEC5E2BDCCE74005FB567 /* SignUpResponseModel.swift */,
-				A38CEC602BDCCEA7005FB567 /* SignUpViewController.swift */,
-				A38CEC662BDCCF0F005FB567 /* CheckUserInfoViewController.swift */,
-				A38CEC682BDCCF28005FB567 /* UserInfoResponseModel.swift */,
 			);
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
@@ -228,6 +219,39 @@
 				A3ACF68C2BC131BC00E7D463 /* ScrollViewController.swift */,
 			);
 			path = "2nd-Seminar";
+			sourceTree = "<group>";
+		};
+		A3E998D52C01AF7B0045DF36 /* 4th-Seminar-Network */ = {
+			isa = PBXGroup;
+			children = (
+				A3E998D72C01AFBF0045DF36 /* Network */,
+				A3E998D62C01AFAC0045DF36 /* Model */,
+				A38CEC662BDCCF0F005FB567 /* CheckUserInfoViewController.swift */,
+				A38CEC602BDCCEA7005FB567 /* SignUpViewController.swift */,
+			);
+			path = "4th-Seminar-Network";
+			sourceTree = "<group>";
+		};
+		A3E998D62C01AFAC0045DF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A38CEC5C2BDCCE2E005FB567 /* SignUpRequestModel.swift */,
+				A38CEC5E2BDCCE74005FB567 /* SignUpResponseModel.swift */,
+				A38CEC682BDCCF28005FB567 /* UserInfoResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3E998D72C01AFBF0045DF36 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A38CEC562BDCCB85005FB567 /* Config.swift */,
+				A38CEC582BDCCDE7005FB567 /* NetworkResult.swift */,
+				A38CEC5A2BDCCE0C005FB567 /* MoyaLoggingPlugin.swift */,
+				A38CEC622BDCCED4005FB567 /* UserTargetType.swift */,
+				A38CEC642BDCCEF2005FB567 /* UserService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
